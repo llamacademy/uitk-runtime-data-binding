@@ -1,0 +1,39 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-direction: row;">
+        <ui:VisualElement name="Icon" style="width: 50px; height: 50px;">
+            <Bindings>
+                <ui:DataBinding property="style.backgroundImage" data-source-path="Icon" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:VisualElement>
+        <ui:Label name="name">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="DisplayName" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:Label>
+        <ui:Label name="health">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="Health" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:Label>
+        <ui:Label name="damage" binding-path="Damage">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="Damage" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:Label>
+        <ui:Label name="attack-speed">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="AttackSpeed" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:Label>
+        <ui:Label name="weapon-upgrades">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="WeaponUpgrades" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:Label>
+        <ui:Label name="armor-upgrades">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="ArmorUpgrades" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:Label>
+    </ui:VisualElement>
+</ui:UXML>
