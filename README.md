@@ -1,6 +1,6 @@
 ﻿# Runtime UI Data Binding with UI Toolkit 
 
-In this tutorial repository and [accompanying video](https://youtu.be/_FlgT0bB_pY) you will about a powerful feature in UI Toolkit - Data Binding. 
+In this tutorial repository and [accompanying video](https://youtu.be/_FlgT0bB_pY) you will learn about a powerful feature in UI Toolkit - Data Binding. 
 You'll learn how to use the Data Binding feature in UI Toolkit for Runtime UIs to bind data to elements on the UI so they automatically update when the data changes. 
 This helps limit code we have to write to synchronize data to the UI and streamlines our development process.
 
